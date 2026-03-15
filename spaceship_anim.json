@@ -1,0 +1,21 @@
+{
+    "spritesheetPath": "spaceship_sheet.png",
+    "animations": {
+        "idle": {
+            "frames": [0],
+            "frameRate": 1,
+            "size": [106,100],
+            "startingPoint": [0,0],
+            "origin": [50,53],
+            "loop": false
+        },
+        "move": {
+            "frames": [0,1,2,3,4],
+            "frameRate": 10,
+            "size": [106,100],
+            "startingPoint": [0,100],
+            "origin": [50,53],
+            "loop": true
+        }
+    }
+}
